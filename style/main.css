@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+html, body {
+  height:100%;
+  width: 100%;
+  color: white;
+  background: black;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 21, 104, 0.548)
+  ),
+  url('../images/439.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+img {
+  width: 70%;
+}
+.dates {
+  font-size: 44px;
+}
+
+.venue {
+  font-size: 30px;
+}
